@@ -1,0 +1,161 @@
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  background: #a7dbdc;
+}
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #4ec9cd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4ec9cd;
+  text-decoration: none;
+}
+
+/**
+* Desktop Navigation 
+*/
+  .navbar a:hover,
+  .navbar .active,
+  .navbar .active:focus,
+  .navbar li:hover>a {
+    color: #4ec9cd;
+  }
+
+  .navbar .dropdown ul a {
+    color: #224c4d;
+  }
+  
+  .navbar .dropdown ul a:hover,
+  .navbar .dropdown ul .active:hover,
+  .navbar .dropdown ul li:hover>a {
+    color: #4ec9cd;
+  }
+
+  /**
+  * Mobile Navigation 
+  */
+
+  .navbar-mobile a,
+  .navbar-mobile a:focus {
+    padding: 10px 20px;
+    font-size: 15px;
+    color: #394047;
+  }
+  
+  .navbar-mobile a:hover,
+  .navbar-mobile .active,
+  .navbar-mobile li:hover>a {
+    color: #4ec9cd;
+  }
+
+  .navbar-mobile .dropdown ul a:hover,
+  .navbar-mobile .dropdown ul .active:hover,
+  .navbar-mobile .dropdown ul li:hover>a {
+    color: #4ec9cd;
+  }
+  
+.back-to-top:hover {
+  background: #4ec9cd;
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+  #hero .carousel-item::before {
+    background-color: rgba(12, 13, 14, 0);
+  }
+
+  #hero .carousel-indicators li.active {
+    opacity: 1;
+    background: #ffffff;
+  }
+  
+  #hero .btn-get-started {
+    background: #ffffff;
+  }
+  
+  #hero .btn-get-started:hover {
+    background: #ffffff;
+  }
+
+  .pic {
+    width: 90%;
+    border-radius: 2px;
+    margin: 20px;
+    box-shadow: 0 0 12px 0 #aba7a7;
+    justify-content: space-around;
+}
+
+.contact {
+  background: linear-gradient(rgba(12, 13, 14, 0.8), rgba(12, 13, 14, 0.2)), url("../img/cta-bg.jpg") fixed center center;
+  background-size: cover;
+}
+
+.counts {
+  background: linear-gradient(rgba(12, 13, 14, 0.8), rgba(12, 13, 14, 0.4)), url("../img/pink.jpg") fixed center center;
+  background-size: cover;
+  padding: 120px 0;
+  color: white;
+}
+
+.cta {
+  background: linear-gradient(rgba(12, 13, 14, 0.8), rgba(12, 13, 14, 0.5)), url("../img/cta-bg.jpg") fixed center center;
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.section-title h2 {
+  background: #f5f9fc;
+  color: #3f979a;
+}
+
+.section-title h3 span {
+  color: #3f979a;
+}
+
+.about .icon-box .icon i {
+  color: #3f979a;
+  font-size: 32px;
+}
+
+.about .icon-box:hover .icon {
+  background: #3f979a;
+  border-color: #3f979a;
+}
+
+.about .icon-box .title a:hover {
+  color: #3f979a;
+}
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+
+.counts .counters span {
+  color: #4ec9cd;
+}
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+
+.services .icon-box:hover .title a {
+  color: #3f979a;
+}
